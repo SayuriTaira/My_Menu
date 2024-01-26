@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+        <title>Menu</title>
+
+        <link rel="stylesheet" href="styles.css">
+        <link rel="icon" href="images/food-icon.png">
+
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0" />
+
+        <script src="https://kit.fontawesome.com/2aa299e265.js" crossorigin="anonymous"></script>
+    </head>
+    <body>
+        
+        <section>
+            <header id="header">
+                <div class="navbar">
+                    <div class="logo">Daybreak Diner</div>
+                    <div class="bars"><i class="fa-solid fa-bars"></i></div>
+                </div>
+
+                <div class="introduction">
+                    <span>Welcome!</span>
+                    <span>We serve the richest breakfast in the city!</span>
+                    <button>Order Now</button>
+                </div>
+            </header>
+
+            <div class="btn-container">
+                <div class="btn-content">
+                    <button data-id="all"><span class="material-symbols-outlined">circle</span></button>
+                    <span class="btn-description">All</span>
+                </div>
+
+                <div class="btn-content">
+                    <button data-id="breakfast"><img src="images/breakfast-icon.png"></button>
+                    <span class="btn-description">Breakfast</span>
+                </div>
+
+                <div class="btn-content">
+                    <button data-id="lunch"><span class="material-symbols-outlined">lunch_dining</span></button>
+                    <span class="btn-description">Lunch</span>                    
+                </div>
+
+                <div class="btn-content">
+                    <button data-id="shakes"><img src="images/shakes-icon.png"></button>
+                    <span class="btn-description">Shakes</span>                   
+                </div>
+
+                <div class="btn-content">
+                    <button data-id="dinner"><span class="material-symbols-outlined">restaurant</span></button>
+                    <span class="btn-description">Dinner</span>
+                </div>
+            </div>
+
+            <div class="menu-title">
+                <h2>Our Menu</h2>
+            </div>
+
+            <div class="menu"></div>
+        </section>
+
+        <script src="script.js"></script>
+    </body>
+</html>
